@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="shortcut icon" href="./assets/images/wppusher-logo copy.png" type="image/x-icon">
+        <title>Welcome</title>
+    </head>
+    <body>
+        <header>
+            <nav role="navigation">
+                <div class="logo_container">
+                    <img src="./assets/images/wppusher-logo copy.png" alt="Logo" role="Logo Image">
+                </div>
+                <ul class="nav_list" role="list">
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help</a></li>
+                    <a href="#"><li>Account</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="card">
+
+            <!-- LEFT CARD SECTION -->
+            <form action="" method="">
+                <section class="left_card">
+                    <header class="form_header" aria-label="Checkout">
+                        <h1>Checkout</h1>
+                    </header>
+                    
+                    <!-- NUMBER ONE SECTION -->
+                    <section class="number_1">
+                        <div class="number">
+                            <div>
+                                <p>1</p>
+                            </div>
+                            <p>Your Basic Information</p>
+                        </div>
+    
+                        <div class="name_container">
+                            <div>
+                                <label for="firstname">First Name</label>
+                                <input type="text" name="firstname" id="firstname" autocomplete="on" spellcheck="true" placeholder="Jane" required tabindex="5">
+                            </div> 
+                            <div>
+                                <label for="lastname">Last Name</label>
+                                <input type="text" name="lastname" id="lastname" autocomplete="on" spellcheck="true" placeholder="Doe" required>
+                            </div>   
+                        </div>
+    
+                        <div class="email_container">
+                            <label for="email">E-mail</label><br>
+                            <input type="text" name="email" id="email" autocomplete="on" spellcheck="true" placeholder="janedoe@example.com" required> 
+                        </div>
+                    </section>
+    
+                    <!-- NUMBER TWO SECTION -->
+                    <section class="number_2">
+                        <div class="number">
+                            <div>
+                                <p>2</p>
+                            </div>
+                            <p>Your Payment Information</p>
+                        </div>
+    
+                        <div class="credit_card_container"> 
+                            <label for="">Credit Card</label>
+                            <div class="credit_card_input">
+                                <input type="text" name="cardnumber" id="cardnumber" placeholder="Card Number" maxlength="12" required />
+                                <input type="text" name="expire" id="expire" placeholder="MM/YY" maxlength="4" required />
+                                <input type="text" name="cvc" id="cvc" placeholder="CVC" maxlength="3" required />
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- BUTTON SECTION -->
+                    <section class="button_section">
+                        <div class="button_container">
+                            <button>Buy WP Pusher</button>
+                        </div>
+
+                        <div>
+                            <img src="./assets/images/Mask.svg" alt="">
+                            <p>Need any help? <span>Don't hesitate to <a href="#">contact support!</a></span></p>
+                        </div>
+
+                        <div class="brand_logo">
+                            <img src="./assets/images/powered_by_stripe.svg" alt="brand_logo" title="brand_logo">
+                        </div>
+                    </section>
+                </section>
+            </form>
+
+            <!-- RIGHT CARD SECTION -->
+            <section class="right_card">
+
+                <!-- SUBSCRIPTION SECTION -->
+                <article class="subscription_container">
+                    <h2>Freelancer</h2>
+                    <div class="price_container">
+                        <span>$</span>
+                        <div class="price">
+                            <span class="">99</span>
+                            <span>/ Year</span>
+                        </div>
+                    </div>
+                    <p>Automatically renews <br>after 1 year</p>
+                </article>
+
+                <article class="description_container">
+                    <div>
+                        <img src="./assets/images/Combined Shape.svg" alt="icon" title="icon">
+                        <p>Use on 5 client sites</p>
+                    </div>
+                    <div>
+                        <img src="./assets/images/Combined Shape.svg" alt="icon" title="icon">
+                        <p>Private repositories</p>
+                    </div>
+                    <div>
+                        <img src="./assets/images/Combined Shape.svg" alt="icon" title="icon">
+                        <p>Email support</p>
+                    </div>
+                    <p>Need 20 client sites?</p>
+                    <p><a href="#">Switch to the Agency plan.</a></p>
+                </article>
+
+                <article class="review_section">
+                    
+                    <blockquote>
+                       <p>
+                        FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
+                       </p>
+                        <cite>
+                            <img src="./assets/images/Bitmap (1).png" alt="User Image" title="user image">
+                            <p>Kirk Beard</p>
+                        </cite>
+                    </blockquote>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2018 WP Pusher IVS  ·  Terms of Service</p>
+        </footer>
+    </body>
+</html>
