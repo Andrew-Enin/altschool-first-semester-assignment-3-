@@ -145,7 +145,7 @@ header .nav_list {
 .card {
   max-width: 892px;
   margin-block-start: 60px;
-  margin-block-end: 15px;
+  margin-block-end: 25px;
   margin-inline: auto;
   display: flex;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05),
@@ -477,8 +477,8 @@ section .number {
 /* FOOTER */
 footer {
   text-align: center;
-  /* margin-block-start: 2rem; */
-
+  padding-block-end: 30px;
+  
   > p {
     color: #636b6f;
     text-align: center;
