@@ -126,10 +126,10 @@ header .nav_list {
   > a {
     border-radius: 6px;
     border: 2px solid #646e7a;
-    padding-block-start: 11px;
-    padding-block-end: 12px;
-    padding-inline-start: 19px;
-    padding-inline-end: 20px;
+    padding-block-start:  0.688rem;
+    padding-block-end: 0.75rem;
+    padding-inline-start: 1.188rem;
+    padding-inline-end: 1.25rem;
   }
 }
 
